@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9ba3fdebcb.js" crossorigin="anonymous"></script>
+    
+</head>
+<style>
+body{
+    background-image:url(OIP.jpeg);
+    /* background-repeat:no-repeat ; */
+   
+ 
+   
+  
+   
+}
+</style>
+
+<body>
+    <!-- <div style="background-color:;padding:15px; width: 100%;"><h2>Student Registration Form for Thakur College of Engineering and Technology</h2></div>
+     -->
+    <section>
+        
+        <div class="formbox">
+            <div class="formvalue">
+                <form action="">
+                    <h2>Login</h2>
+                    <div class="inputbox" >
+                        
+                     
+                        <i class="fa-solid fa-lock"></i>
+                        <label for="">ERP Number</label>
+                        <input type="ERP Number" required>
+                    </div>
+                    <div class="inputbox">
+                       
+                        <i class="fa-solid fa-envelope"></i>
+                        <label for="">password</label>
+                        <input type="password" required>
+                    </div>
+                    <div class="forget">
+                        <label for=""><input type="checkbox">Remember</label><br>
+                        <a href="#">Forget Password</a>
+
+                    </div>
+                    <button>Log in</button>
+                    <div class="register"><p>Dont have a account <a href="#">register</a></p></div>
+                </form>
+                <button class="buto"><a href="index.html">Home Page</a></button>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+</body>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+
+
+    }
+    section{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        min-height: 100vh;
+        width: 100%;
+       background-image: url(contact.png) no-repeat ;
+       background-position: center;
+       background-size: cover;
+       color: white;
+    }
+    .formbox{
+        position: relative;
+        width: 500px;
+        height: 450px;
+        background:rgba(0, 0, 0, 0.493);
+       opacity: 20px;
+        border: 2px solid black;
+      
+       border-radius:20px;
+       backdrop-filter: blur();
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .h2{
+        font-size: 2em;
+        color:white;
+        text-align: center;
+
+    }
+    .inputbox{
+      position: relative;
+      margin: 30px 0;
+      width: 310px;
+      border-bottom: 2px solid white;  
+    }
+    .inputbox-label{
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        color:white;
+        font-size: 1em;
+        pointer-events: none;
+        transition: .5s;
+
+   }
+   input:focus ~ label,
+   input:valid ~ label{
+
+    top: -5px;
+   }
+   .inputbox input{
+    width:100% ;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px  0 5px;
+    color:white;
+   }
+   .forget{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color:white;
+    display: flex;
+    justify-content: center;
+   }
+   .forget label input{
+    margin-right: 3px;
+
+   }
+   .forget label a{
+    color:white;
+    text-decoration: none;
+   }
+   .forget label a:hover{
+    text-decoration: underline;
+
+   }
+   button{
+    width:100% ;
+    height: 40px;
+    border-radius: 40px;
+    background:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: black;
+   }
+  
+   .register{
+    font-size: .9em;
+    color:white;
+    text-align: center;
+    margin: 25px 0 10px;
+   }
+   .register p a{
+    text-decoration: none;
+    color:white;
+    font-weight: 600;
+  }
+  .register p a:hover{
+    text-decoration: underline;
+  }
+  .butto
+{
+   
+    height: 40px;
+    border-radius: 40px;
+    background:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color:black;
+
+}
+
+</style>
+</html>
+<!-- inline css
+internal css
+external css -->

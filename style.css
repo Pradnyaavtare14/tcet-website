@@ -1,0 +1,332 @@
+
+* {
+    box-sizing: border-box;
+
+}
+ body {
+        background-color:bisque;
+        margin: 0px;
+        text-align: center;
+        padding: 20px;
+       
+        background-color: darkorange;
+        
+
+    }
+.rashmi{
+    display:flex;
+ 
+   
+}
+.tcet{
+    width:700px;
+    padding-right: 1px;
+   
+}
+.col{
+    width:70%;
+   background-color: rgba(255, 160, 122, 0.556);
+    margin: 10px;
+    border: 5px solid darkorange;
+   
+}
+
+    @media screen and (min-width:1284px) {
+        body {
+            background-color:white;
+            text-align: center;
+        }
+    }
+    
+
+
+.topnav {
+    overflow: hidden;
+    background-color:bisque;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.topnav a {
+    /* float:left;
+    display: block; */
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    /* margin: 200px; */
+}
+
+.topnav a:hover {
+    background-color:darkorange;
+    color: black;
+    text-align: center;
+}
+.flex-container
+{
+  display: flex;
+  justify-content: center;
+ 
+}
+.flex-container1{
+     
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+.cont{
+    background-color: rgba(254, 254, 254, 0.41);
+    padding: 10% 32%;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+  
+}
+.box{
+   
+    /* display:flex; */
+    flex-direction: row;
+    display:inline-block;
+    height: 300px;
+    width: 500px;
+    
+  
+
+    
+margin-left: 100px;
+padding-top: 20px;
+
+    /* flex-direction: row;
+    background-color:white;
+    justify-content: center;
+    flex-grow: initial;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;
+    text-align: center;
+    */
+
+ 
+    
+}
+.flex-container>div{
+    background-color:bisque;
+    color:black;
+    
+    /* margin: 20px; */
+   
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 20px;
+  }
+  .h{
+      padding: 20px;
+      background-color: bisque;
+  }
+  .footer {
+       
+    padding: 20px;
+   
+   
+}
+.pra{
+    text-align: left;
+}
+.img1
+{
+width: 500px;
+}
+.back{
+    
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+}
+.tab{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+   
+  
+
+}
+.imgb{
+    position: fixed;
+    height:720px ;
+    width: max-content;
+}
+.column1{
+    float: left;
+    width: 50%;
+    
+}
+.column2{
+    float: right;
+    width: 50%;
+    
+}
+a:hover{
+    background-color: gray;
+}
+.flex-container2
+{
+  display: flex;
+  justify-content: center;
+ font-size: 16px;
+
+}
+.flex-container>div{
+    background-color:bisque;
+    color:black;
+    
+    /* margin: 20px; */
+   
+    padding: 25px;
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 20px;
+  }
+  .row::after{
+    content: "";
+    display:table;
+    clear:both;}
+   
+            .rwd-table {
+              margin: auto;
+              min-width: 300px;
+              max-width: 100%;
+              border-collapse: collapse;
+               border: 1px dotted #EEEEEE;
+               display: flex;
+               justify-content: left;
+            }
+
+            .rwd-table tr:first-child {
+              border-top: none;
+              /*background: #428bca;*/
+              background:lightsalmon !important;
+              color: #fff;
+            }
+
+            .rwd-table tr {
+              /* border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;*/
+              border-top: 1px dotted #EEEEEE;
+              border-bottom: 1px dotted #EEEEEE;
+
+              /* background-color: #f5f9fc;*/
+              background-color:rgba(255, 160, 122, 0.511);
+              color:black;
+            }
+
+            .rwd-table tr a {
+
+
+              background-color:rgba(255, 160, 122, 0.503);
+              color: black;
+            }
+
+            /*.rwd-table tr:nth-child(odd):not(:first-child) {
+  background-color: #EFA76B;
+}*/
+
+            .rwd-table th {
+              display: none;
+            }
+
+            .rwd-table td {
+              display: block;
+            }
+
+            .rwd-table td:first-child {
+              margin-top: .5em;
+            }
+
+            .rwd-table td:last-child {
+              margin-bottom: .5em;
+            }
+
+            .rwd-table td:before {
+              content: attr(data-th) ": ";
+              font-weight: bold;
+              width: 120px;
+              display: inline-block;
+              color: #000;
+            }
+
+            .rwd-table th,
+            .rwd-table td {
+              text-align: left;
+            }
+
+            .rwd-table {
+              color: #fff;
+              border-radius: .4em;
+              overflow: hidden;
+            }
+
+            .rwd-table th {
+              background-color:darkorange;
+              color: #fff;
+
+            }
+
+            /*.rwd-table tr {
+  
+	border-bottom:1px dotted #EEEEEE;
+}
+*/
+            .rwd-table th,
+            .rwd-table td {
+              padding: .5em 1em;
+            }
+
+            @media screen and (max-width: 601px) {
+              .rwd-table tr:nth-child(2) {
+                border-top: none;
+              }
+            }
+
+            @media screen and (min-width: 600px) {
+              
+
+              .rwd-table td:before {
+                display: none;
+              }
+
+              .rwd-table th,
+              .rwd-table td {
+                display: table-cell;
+                padding: .25em .5em;
+              }
+
+              .rwd-table th:first-child,
+              .rwd-table td:first-child {
+                padding-left: 0;
+              }
+
+              .rwd-table th:last-child,
+              .rwd-table td:last-child {
+                padding-right: 0;
+              }
+
+              .rwd-table th,
+              .rwd-table td {
+                padding: 0.5em !important;
+              }
+            }
+
+
+            /* THE END OF THE IMPORTANT STUFF */
+
+            /* Basic Styling */
+
+
+          
